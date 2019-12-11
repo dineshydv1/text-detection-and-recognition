@@ -10,11 +10,9 @@ Project Description: Task is to identify text in an image or a video stream. Tex
 I have used below approaches:
 
 ### Approach 1: EAST Algorithm with OpenCV: 
-#### PART-1: Text detection:
-EAST text detector is a deep learning model which is capable to run near real time and gives very high text-detection accuracy. EAST text detection requires OpenCV 3.4.2 or 4 version. EAST model gives the probability of text and the coordinates of bounding box around text area. 
 
-#### PART-2: Text recognization:
-EAST model draws bounding box, called ROI, around the text. These text-ROI are extract from image and pass them into Tessaract LSTM deep learning text recognition algorithm. The output of LSTM will give us actual OCR results.
 
 ### Approach 2: YOLO Algorithm:
 PENDING. 
+
+
