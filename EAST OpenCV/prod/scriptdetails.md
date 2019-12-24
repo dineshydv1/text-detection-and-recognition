@@ -13,5 +13,6 @@ To use script, call function text_detection_in_image insie the script with below
 
 ### Script output:
 Output of script is a list of tuple with bounding box coordinates and text identified inside them. 
+Sample output: ((startX, startY, endX, endY), text)
 
 
