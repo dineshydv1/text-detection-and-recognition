@@ -1,4 +1,4 @@
-### Approach 1: EAST Algorithm with OpenCV: 
+### EAST Algorithm with OpenCV: 
 #### PART-1: Text detection:
 EAST text detector is a deep learning model which is capable to run near real time and gives very high text-detection accuracy. EAST text detection requires OpenCV 3.4.2 or 4 version. EAST model gives the probability of text and the coordinates of bounding box around text area. 
 

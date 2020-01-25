@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="row">
+	<h1>Select an Image for Text Detection</h1>
+	<div class="col-md-7">
+		<form action="/result" method="POST"> 
+			
+			<label>
+				<input type="radio" name="img" value="static/images/car_wash.png" checked>
+				<img src="static/images/car_wash.png" style="height:200px;width:250px;" class="img">
+			</label>
+			<label>
+				<input type="radio" name="img" value="static/images/lebron_james.jpg" >
+				<img src="static/images/lebron_james.jpg" style="height:200px;width:250px;" class="img">
+			</label>
+			<label>
+				<input type="radio" name="img" value="static/images/sign.jpg" >
+				<img src="static/images/sign.jpg" style="height:200px;width:250px;" class="img">
+			</label>
+
+			<br>
+			<!-- <input type="submit" value="Submit">  -->
+			<input type="submit" name="submit">
+		</form> 
+	</div>
+</div>
+
+<br>
+
+{% endblock %}
